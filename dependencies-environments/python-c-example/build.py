@@ -2,8 +2,8 @@ from setuptools.extension import Extension
 
 
 linked_pyext = Extension(
-    "linked_pyext.add",
-    sources=["src/linked_pyext.c"],
+    "linked_pyext._linkedext",
+    sources=["src/linked_pyextmodule.c"],
     define_macros=[("PY_SSIZE_T_CLEAN",)],
 )
 
@@ -15,6 +15,6 @@ def build(setup_kwargs):
 
     setup_kwargs.update(
         {
-            "ext_modules": [linked_pyext],
+            "ext_modules": [linked_pyext]
         }
     )
