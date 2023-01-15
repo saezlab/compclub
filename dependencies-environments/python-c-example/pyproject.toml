@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "linked_pyext"
+version = "0.1.0"
+description = "Minimal example of a Python C extension."
+authors = ["Denes Turei <turei.denes@gmail.com>"]
+license = "BSD 3-clause"
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools"]
+build-backend = "poetry.core.masonry.api"
