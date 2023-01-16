@@ -3,8 +3,9 @@ from setuptools.extension import Extension
 
 linked_pyext = Extension(
     "linked_pyext._linkedext",
-    sources=["src/linked_pyextmodule.c"],
-    define_macros=[("PY_SSIZE_T_CLEAN",)],
+    sources = ["src/linked_pyextmodule.c"],
+    define_macros = [("PY_SSIZE_T_CLEAN",)],
+    libraries = ["tidy", "curl"]
 )
 
 
