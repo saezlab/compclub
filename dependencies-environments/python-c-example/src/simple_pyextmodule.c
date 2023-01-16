@@ -2,7 +2,7 @@
 #include <Python.h>
 
 static PyObject *
-linkedpyext_add(PyObject *self, PyObject *args)
+add(PyObject *self, PyObject *args)
 {
     const long a, b;
     long result;
@@ -15,24 +15,24 @@ linkedpyext_add(PyObject *self, PyObject *args)
 }
 
 
-static PyMethodDef LinkedPyextMethods[] = {
-    {"add", (PyCFunction)linkedpyext_add, METH_VARARGS, "Add two integers."},
+static PyMethodDef PyextMethods[] = {
+    {"add", (PyCFunction)add, METH_VARARGS, "Add two integers."},
     {NULL, NULL, 0, NULL}
 };
 
 
-static struct PyModuleDef linked_pyextmodule = {
+static struct PyModuleDef simple_pyextmodule = {
     PyModuleDef_HEAD_INIT,
-    "_linkedext",
-    "Linked Python extension.",
+    "_simpleext",
+    "Minimal Python extension.",
     -1,
-    LinkedPyextMethods
+    PyextMethods
 };
 
 
 PyMODINIT_FUNC
-PyInit__linkedext(void)
+PyInit__simpleext(void)
 {
-    return PyModule_Create(&linked_pyextmodule);
+    return PyModule_Create(&simple_pyextmodule);
 }
 
