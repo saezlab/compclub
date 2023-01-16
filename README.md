@@ -6,7 +6,7 @@ Here you find examples presented in the club, and links to notes and slides.
 
 | Date       | Topic                                             | Examples                                                          | Slides                                                                                                    | Presenter |
 |------------|---------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------|
-| 2023-01-16 | Environments, dependencies, C extensions, linking | [Python extension linking C libraries](environments-dependencies) | [Slides](https://saezlab.slack.com/files/U5TNX0A6A/F04JP1TJ147/environments-dependencies_16-jan-2023.pdf) | Dénes     |
+| 2023-01-16 | Environments, dependencies, C extensions, linking | [Python extension linking C libraries](tree/master/dependencies-environments) | [Slides](https://saezlab.slack.com/files/U5TNX0A6A/F04JP1TJ147/environments-dependencies_16-jan-2023.pdf) | Dénes     |
 | 2023-01-30 | ?                                                 |                                                                   |                                                                                                           | ?         |
 
 ## Topic plans
