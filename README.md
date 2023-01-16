@@ -27,7 +27,7 @@ Here you find examples presented in the club, and links to notes and slides.
 - Tutorials of our tools: learn their features, how to use them, ideas for
   future development
 
-** What are you interested in? Add your ideas to the list above! **
+**What are you interested in? Add your ideas to the list above!**
 
 Copyright [Saez Lab](https://saezlab.org/) 2023;
 License: [CC NC-BY-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
