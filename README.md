@@ -7,7 +7,7 @@ Here you find examples presented in the club, and links to notes and slides.
 | Date       | Topic                                             | Examples                                                          | Slides                                                                                                    | Presenter |
 |------------|---------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------|
 | 2023-01-16 | Environments, dependencies, C extensions, linking | [Python extension linking C libraries](dependencies-environments) | [Slides](https://saezlab.slack.com/files/U5TNX0A6A/F04JP1TJ147/environments-dependencies_16-jan-2023.pdf) | Dénes     |
-| 2023-01-30 | ?                                                 |                                                                   |                                                                                                           | ?         |
+| 2023-03-13 | Advanced git                                      | [Notes and slides](advanced-git)                                  | [Slides](https://github.com/saezlab/compclub/blob/master/advanced-git/slides.html)                        | ?         |
 
 ## Topic plans
 
